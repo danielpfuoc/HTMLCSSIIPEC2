@@ -1,0 +1,9 @@
+@mixin text-black-condensed {
+  font-family: var(--font-family-sans-serif-condensed);
+  font-weight: 700;
+  color: $black;
+}
+
+@function percent($number, $space) {
+  @return (100 - $space * ($number - 1)) / $number * 1%;
+}

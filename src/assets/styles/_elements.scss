@@ -1,0 +1,31 @@
+h1 {
+  font-family: var(--font-family-serif);
+  font-size: 6rem;
+}
+
+h4 {
+  @include text-black-condensed;
+}
+
+small {
+  font-size: 1rem;
+
+  @include text-black-condensed;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
